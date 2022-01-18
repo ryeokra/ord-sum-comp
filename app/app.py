@@ -4,7 +4,7 @@ from pyramid.config import Configurator
 from waitress import serve
 
 if __name__ == '__main__':
-    prot = int(os.environ.get('PORT', 5000))
+    port = int(os.environ.get('PORT', 5000))
 
     with Configurator() as config:
         config.include('pyramid_jinja2')
