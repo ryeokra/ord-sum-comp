@@ -11,14 +11,27 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Pale blue: hsl(225, 100%, 94%)
-- Bright blue: hsl(245, 75%, 52%)
+- Pale blue:
+  hsl(225, 100%, 94%)
+  rgba(224, 232, 255, 255)
+
+- Bright blue:
+  hsl(245, 75%, 52%)
+  rgba(56, 41, 224, 255)
 
 ### Neutral
 
-- Very pale blue: hsl(225, 100%, 98%)
-- Desaturated blue: hsl(224, 23%, 55%)
-- Dark blue: hsl(223, 47%, 23%)
+- Very pale blue:
+  hsl(225, 100%, 98%)
+  rgba(245, 247, 255, 255)
+
+- Desaturated blue:
+  hsl(224, 23%, 55%)
+  rgba(114, 128, 167, 255)
+
+- Dark blue:
+  hsl(223, 47%, 23%)
+  rgba(31, 47, 86, 255)
 
 ## Typography
 
