@@ -1,0 +1,50 @@
+.card {
+  text-align: center;
+  background-color: white;
+  max-width: 86vw;
+  height: auto;
+  margin: auto;
+  border-radius: 18px;
+}
+.card__illustration {
+  width: 100%;
+  height: auto;
+  border-radius: 18px 18px 0px 0px;
+}
+.card__title {
+  margin: 10px auto;
+  font-weight: 900;
+  font-size: 1.8em;
+}
+.card__content {
+  padding: 14px;
+}
+.card__content .card__text {
+  color: #7280a7;
+  font-weight: 500;
+  font-size: 1em;
+  margin: 8px auto;
+}
+.card__content .card__plan {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card__content .card__plan .card__plan-container {
+  background-color: #f5f7ff;
+  padding: 14px;
+  border-radius: 18px;
+}
+.card__content .card__plan .card__plan-container .card__plan-icon-container .card__plan-icon {
+  width: 40px;
+  height: auto;
+  margin: auto;
+}
+@media only screen and (min-width: 430px) {
+  .card {
+    max-width: 26vw;
+  }
+}
+
+/*# sourceMappingURL=card-comp.css.map */
