@@ -1,0 +1,72 @@
+@import "main";
+
+$c: card;
+
+.#{$c} {
+    text-align: center;
+
+    background-color: white;
+
+    max-width: 86vw;
+    height: auto;
+
+    margin: auto;
+
+    border-radius: $bordRad;
+
+    &__illustration {
+        width: 100%;
+        height: auto;
+
+        border-radius: $bordRad $bordRad 0px 0px;
+    }
+
+    &__title {
+        margin: 10px auto;
+        font-weight: $ultraBold;
+        font-size: 1.8em;
+    }
+
+    &__content {
+        padding: $padd;
+
+        .#{$c}__text {
+            color: $desaturatedBlue;
+
+            font-weight: $regular;
+            font-size: 1em;
+
+            margin: 8px auto;
+        }
+
+        .#{$c}__plan {
+            display: flex;
+
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            .#{$c}__plan-container {
+                background-color: $veryPaleBlue;
+
+                padding: $padd;
+                border-radius: $bordRad;
+
+                .#{$c}__plan-icon-container {
+                    .#{$c}__plan-icon {
+                        width: 40px;
+                        height: auto;
+
+                        margin: auto;
+                    }
+                }
+            }
+        }
+    }
+
+    @media only screen and (min-width: 430px) {
+        & {
+            max-width: 26vw;
+        }
+    }
+}
