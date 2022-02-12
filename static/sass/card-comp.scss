@@ -65,6 +65,31 @@ $c: card;
                         margin: auto;
                     }
                 }
+
+                .#{$c}__plan-name-price-container {
+                    display: flex;
+                    flex-direction: column;
+
+                    .#{$c}__plan-name {
+                        margin: 2px auto;
+                        font-weight: $bold;
+                        font-size: 0.9rem;
+                    }
+
+                    .#{$c}__plan-price {
+                        margin: 2px auto;
+                        font-weight: $regular;
+                        font-size: 0.8rem;
+                        color: $desaturatedBlue;
+                    }
+                }
+
+                .#{$c}__plan-button-container {
+                    .#{$c}__plan-button-change-plan {
+                        font-weight: $regular;
+                        color: $brightBlue;
+                    }
+                }
             }
         }
     }
