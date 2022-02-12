@@ -32,6 +32,10 @@
   justify-content: space-between;
 }
 .card__content .card__plan .card__plan-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
   background-color: #f5f7ff;
   padding: 14px;
   border-radius: 18px;

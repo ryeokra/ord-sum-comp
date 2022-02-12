@@ -47,6 +47,11 @@ $c: card;
             justify-content: space-between;
 
             .#{$c}__plan-container {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                justify-content: space-between;
+
                 background-color: $veryPaleBlue;
 
                 padding: $padd;
