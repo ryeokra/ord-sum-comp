@@ -45,6 +45,25 @@
   height: auto;
   margin: auto;
 }
+.card__content .card__plan .card__plan-container .card__plan-name-price-container {
+  display: flex;
+  flex-direction: column;
+}
+.card__content .card__plan .card__plan-container .card__plan-name-price-container .card__plan-name {
+  margin: 2px auto;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+.card__content .card__plan .card__plan-container .card__plan-name-price-container .card__plan-price {
+  margin: 2px auto;
+  font-weight: 500;
+  font-size: 0.8rem;
+  color: #7280a7;
+}
+.card__content .card__plan .card__plan-container .card__plan-button-container .card__plan-button-change-plan {
+  font-weight: 500;
+  color: #3829e0;
+}
 @media only screen and (min-width: 430px) {
   .card {
     max-width: 26vw;
