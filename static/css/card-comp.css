@@ -14,7 +14,7 @@
 .card__title {
   margin: 10px auto;
   font-weight: 900;
-  font-size: 1.8em;
+  font-size: 1.8rem;
 }
 .card__content {
   padding: 14px;
@@ -22,7 +22,7 @@
 .card__content .card__text {
   color: #7280a7;
   font-weight: 500;
-  font-size: 1em;
+  font-size: 1rem;
   margin: 8px auto;
 }
 .card__content .card__plan {
